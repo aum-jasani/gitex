@@ -1,0 +1,75 @@
+Git exercise codes: -
+1.	$ git clone git@github.com:Omjasani/gitexercise.git
+2.	$ mkdir dir1git 
+3.	$ git add .
+4.	$ git commit –m (“addead read me file”)
+5.	$ git pust origin master
+6.	$ git checkout –b dev
+7.	$ mkdir devdir
+8.	$ git add .
+9.	$ git commit –m “added two files”
+10.	$ git push origin dev
+11.	 $ git checkout –b branch1
+12.	$ git add .
+13.	$ git commit –m “added file”
+14.	$ git checkout dev
+15.	$ git checkout –b branch2
+16.	$ git add .
+17.	$ git commit –m “added file”
+18.	$ git checkout branch1
+19.	$ git add .
+20.	$ git commit –m “modified file”
+21.	$ git commit –amend –m “modification has done”
+22.	$ git checkout branch2
+23.	$ git add .
+24.	$ git commit –m “modified file”
+25.	$ git commit –amend –m “modification has done”
+26.	 $ git puch origin branch2
+27.	$ git checkout branch1
+28.	$ git push origin branch1
+29.	$ git checkout dev
+30.	$ git merge branch1
+31.	$ git merge branch2
+32.	$ git merge – continue
+33.	$ git checkout branch1 
+34.	$ git stash
+35.	$ git checkout branch2
+36.	$ git add .
+37.	$ git commit “file modified”
+38.	 $ git checkout branch1
+39.	$ git stash apply
+40.	$ git add .
+41.	$ git commit “file modified”
+42.	$ git checkout dev
+43.	$ git merge branch1
+44.	$ git merge – continue
+45.	$ git add .
+46.	$ git commit  -m “merged branch1”
+47.	$ git merge branch2
+48.	$ git merge continue
+49.	$ git add .
+50.	 $ git commit –m “merged branch2”
+51.	$ git checkout –b feature1
+52.	$ git checkout dev
+53.	$ git checkout –b feature2
+54.	$ git add .
+55.	$ git commit –m “added file”
+56.	$ checkout feature1
+57.	$ git add .
+58.	$ git commit –m “added file”
+59.	$ git push origin feature1
+60.	 $ git checkout branch2
+61.	$ git pull git@github.com:Omjasani/gitexercise.git
+62.	$ git checkout dev
+63.	$ git merge feature1
+64.	$ git pull git@github.com:Omjasani/gitexercise.git
+65.	$ git checkout feature2
+66.	$ git push origin feature2
+67.	$ git checkout dev
+68.	$ git rebase feature2
+69.	$ git merge feature2
+70.	$ git checkout master
+71.	$ git merge dev
+72.	Git push
+
+
